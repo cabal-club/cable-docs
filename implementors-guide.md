@@ -184,7 +184,6 @@ see the full sequence of fields that comprise a Channel Time Range Request:
 MESSAGE HEADER FIELDS
 varint  msg_len
 varint  msg_type
-u8[4]   circuit_id
 u8[4]   req_id
 
 CHANNEL TIME RANGE REQUEST FIELDS
@@ -307,7 +306,6 @@ The bytes below are expressed in base-16:
 ```
 varint  msg_len             0x15 (= 21 base10)
 varint  msg_type            0x04 (= 4 base10)
-u8[4]   circuit_id          0x0000 0000
 u8[4]   req_id              0x9505 0429
 
 varint          channel_len 0x07 (= 7 base10; num UTF-8 codepoints for "default")
@@ -324,7 +322,7 @@ Concatenating all the fields gives us the request bytes:
 ```
 0x15040000000095050429010764656661756c74006414
 // or in a representation with space delineating the request's fields
-0x15 0x04 0x00000000 0x95050429 0x01 0x07 0x64656661756c74 0x00 0x64 0x14
+0x15 0x04 0x95050429 0x01 0x07 0x64656661756c74 0x00 0x64 0x14
 ``` 
 
 For complete examples of all other message and post types, see [`cable.js`][cablejs-example]. 
@@ -337,7 +335,6 @@ If we wanted to represent the request using JSON, it could look like as follows:
 {
 	"msgLen": 21,
 	"msgType": 4,
-	"circuitid": "00000000",
 	"reqid": "95050429",
 	"channelLen": 7,
 	"channel": "default",
@@ -436,7 +433,6 @@ posts:
 MESSAGE HEADER FIELDS
 varint  msg_len
 varint  msg_type
-u8[4]   circuit_id
 u8[4]   req_id
 
 POST RESPONSE FIELDS
