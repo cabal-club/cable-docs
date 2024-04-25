@@ -779,16 +779,16 @@ Here's what the bytes look like:
 
 ```
 u8[32]              public_key	0x25b272a71555322d40efe449a7f99af8fd364b92d350f1664481b2da340a02d0
-u8[64]              signature		0x6725733046b35fa3a7e8dc0099a2b3dff10d3fd8b0f6da70d094352e3f5d27a8bc3f5586cf0bf71befc22536c3c50ec7b1d64398d43c3f4cde778e579e88af05
-varint              num_links		0x01
-u8[32 * num_links]  links				0x5049d089a650aa896cb25ec35258653be4df196b4a5e5b6db7ed024aaa89e1b3
-varint              post_type		0x00 (= 0 base10)
+u8[64]              signature	0x6725733046b35fa3a7e8dc0099a2b3dff10d3fd8b0f6da70d094352e3f5d27a8bc3f5586cf0bf71befc22536c3c50ec7b1d64398d43c3f4cde778e579e88af05
+varint              num_links	0x01
+u8[32 * num_links]  links	0x5049d089a650aa896cb25ec35258653be4df196b4a5e5b6db7ed024aaa89e1b3
+varint              post_type	0x00 (= 0 base10)
 varint              timestamp   0x50 (= 80 base10, unencoded)
 
-varint          channel_len			0x07
-u8[channel_len] channel					0x64 65 66 61 75 6c 74 										(= "default")
-varint          text_len				0x0d (= 13 base10)
-u8[text_len]    text						0x68 e2 82 ac 6c 6c 6f 20 77 6f 72 6c 64	(= "h€llo world")
+varint          channel_len	0x07
+u8[channel_len] channel		0x64 65 66 61 75 6c 74 	(= "default")
+varint          text_len	0x0d (= 13 base10)
+u8[text_len]    text		0x68 e2 82 ac 6c 6c 6f 20 77 6f 72 6c 64 (= "h€llo world")
 ```
 
 Concatenating the fields of this `post/text` gives us the following sequence of bytes:
