@@ -56,10 +56,9 @@ response structure that allows simple data querying between connected peers as
 a mechanism to discover, retrieve, and share posts that happened while offline. 
 
 This has been an important consideration as one of the design goals was to
-enable post deletion in the protocol and its clients. Finally, there there is
-nothing preventing the use of the same Cable identity (identified by a keypair)
-on multiple devices.
-
+enable post deletion in the protocol and its clients. Finally, there is
+nothing preventing the use of the same Cable identity—identified by an EdDSA
+Ed25519 keypair—on multiple devices.
 
 ### Social focus
 
