@@ -140,6 +140,7 @@ The design of Cable makes it a binary pull-based protocol:
 [intro-cable-moderation]: https://github.com/cabal-club/cable/blob/main/moderation.md
 
 Cable's functionality is divided across three [protocol descriptions][intro-cable-root]. 
+
 The [**Cable Wire Protocol**][intro-cable-wire] describes the data model and how to exchange data. 
 We treat how to establish a secure channel between two peers in the [**Cable
 Handshake**][intro-cable-handshake] description.
