@@ -209,7 +209,7 @@ time    Requester                                   Responder
    4    <receives response α>                        
    5    →→→ [req_id β] Post Request                 
    6                                                <receives request β>
-   7                                                ←←← [req_id#β] Post Response 
+   7                                                ←←← [req_id β] Post Response 
    8    <receives response β>                       
 ```
 *request-response cycle initiated by requester sending a channel time range request. each request and response pair is identified by the value set on field req_id*
