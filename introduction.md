@@ -73,7 +73,7 @@ into the side rooms and let those interested to continue discussing join you.
 
 We provide clear moderation tools and make them available to all users. Nobody
 should be shut out from hiding users they find onerous, hiding individual posts
-from view, or from what deciding what they store on their device.
+from view, or from deciding what they store on their device.
 
 **Step away from social centralization** 
 
