@@ -253,7 +253,7 @@ directly][intro-cable-root].
 
 If not that, then perhaps you are the kind of person who learns by doing
 things, in which case you may want to [check out the slightly zany Cable implementation
-guide][/implementors-guide.md].
+guide](/implementors-guide.md).
 
 In any case, we hope you have had an interesting time reading. If you want to
 stay up to date we try to send project updates once or twice a year on our Open
