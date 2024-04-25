@@ -1,4 +1,4 @@
-# Cable Help Documentation
+# Cable Documentation
 
 This repository contains a few documents intended to guide the person interested to know more
 about what Cable is and why it exists. One document even goes so far as to provide a quick and
@@ -9,15 +9,15 @@ informal guide for implementing it in any language, from scratch.
 [guide]: /implementors-guide.md
 [comparison]: /protocol-comparison.md
 
-In [»Introduction to Cable for the interested person»][intro], we outline the motivations of the
-protocol and architectural decisions. There's also a conceptual description of the protocol, as
+In [»Introduction to Cable for the interested person»][intro], we outline the motivations driving the
+protocol design and architectural decisions. There's also a conceptual description of the protocol, intended as
 an easy and intuitive way for understanding the protocol in a nutshell.
 
 Meanwhile, in [»An informal Implementor's Guide to Cable»][guide] we have a slightly zany travel
 guide lead us through implementing the protocol from scratch while making sure to mention most
 of the potholes and beautiful vistas along the way.
 
-In [»Cable Protocol Comparison»][comparison], we set out the briefly compare Cable to
+In [»Cable Protocol Comparison»][comparison], we set out to briefly compare Cable to
 established chat protocols along a few criteria of significance to our project.
 
 ## Other documents
