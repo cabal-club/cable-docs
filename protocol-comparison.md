@@ -37,7 +37,7 @@ One last note before you go on reading this comparison:
 
 You may benefit from reading about the background and considerations driving
 the choices made behind Cable's design as a protocol: [Introduction to Cable
-for the interested person](/implementors-guide.md). 
+for the interested person](/introduction.md). 
 
 Because the design choices strongly influence this comparison.
 
