@@ -23,8 +23,8 @@ For our minimal implementation we will implement 2 **request types**, 2
 **response types**, and 2 **post types**. 
 
 This means we're doing a partial (incomplete) implementation of Cable, but this subset is still
-enough to build a chat client that retrieve posts from others, can author chat messages, and
-even delete self-authored chat messages from communal chat history.
+enough to build out a chat client that retrieves posts from others, can author chat messages, and
+even delete self-authored messages from communal chat history.
 
 * **Message types**
     * **Requests**
